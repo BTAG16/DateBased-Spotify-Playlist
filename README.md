@@ -3,25 +3,25 @@
 ## Overview
 
 **DateBased-Spotify-Playlist** is a Python application that allows users to create a Spotify playlist consisting of the top 100 songs from a specific date based on the Billboard Hot 100 chart. By simply providing a date in the format YYYY-MM-DD, users can generate a personalized playlist of popular songs from that time period.
-```markdown
+
 
 ## Features
-
+```markdown
 - Fetches the Billboard Hot 100 songs for a specified date.
 - Uses the Spotify API to create a private playlist.
 - Automatically adds the top 100 songs to the created playlist.
 - Easy-to-use command-line interface.
-
+```
 ## Requirements
-
+```markdown
 - Python 3.6 or higher
 - `spotipy` library for Spotify API integration
 - `requests` library for making HTTP requests
 - `beautifulsoup4` library for parsing HTML
 - `python-dotenv` library for managing environment variables
-
+```
 ## Installation
-
+```markdown
 1. **Clone the repository:**
 
    ```bash
